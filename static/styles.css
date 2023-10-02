@@ -1,0 +1,108 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  background-color: #94c5f8;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the container */
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style form inputs and selects */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #94c5f8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the image container */
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the recommended hotels table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the table header */
+th {
+  background-color: #94c5f8;
+  color: #fff;
+}
+
+/* Style the table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+      margin-bottom: 10px;
+  }
+}

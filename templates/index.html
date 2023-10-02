@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrec</title>
+
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="/static/styles.css">
+    
+</head>
+<body>
+    <h1>Hotel Recommendations</h1>
+    <div class="container">
+    <form action="/predict" method="post">
+
+
+        <label for="state">Enter state name: </label>
+            <select id="state" name="state" required>
+
+                <option value="Banglore">Banglore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Mumbai">Mumbai</option>
+            </select><br><br>
+
+        <label for="ra">Enter rating required (0-5): </label>
+        <input type="any" id="ra" name="ra" required><br><br>
+
+        <label for="d">Enter the description of hotel expected: </label>
+        <select id="d" name="d" required>
+            <option value="0">Average</option>
+            <option value="1">Excellent</option>
+            <option value="2">Good</option>
+            <option value="3">Poor</option>
+            <option value="4">Very Good</option>
+            <option value="5">No value</option>
+        </select><br><br>
+
+        <label for="re">Number of reviews expected for hotel (0-15000)</label>
+        <input type="number" id="re" name="re" required><br><br>
+
+        <label for="s">The star rating expected for hotel: </label>
+        <select id="s" name="s" required>
+            <option value="0.0">0</option>            
+            <option value="1.0">1</option>
+            <option value="2.0">2</option>
+            <option value="3.0">3</option>
+            <option value="4.0">4</option>
+            <option value="5.0">5</option>
+        </select><br><br>
+
+        <label for="p">The price expected for hotel:  </label>
+        <input type="number" id="p" name="p" required><br><br>
+    
+        <label for="t">The tax expected for hotel:  </label>
+        <input type="number" id="t" name="t" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+    <div class="image-container">
+        <img src="/static/image.jpg" alt="Image">
+    </div>
+    </form>
+    </div>
+    <h1>Recommended Hotels : </h1>
+
+    {% if predicted_Hrec1 %}
+    <table>
+        <tr>
+            <th>Column Name</th>
+            <th>Value</th>
+        </tr>
+        {% for item in predicted_Hrec1 %}
+            {% if item['column'] is not none and item['value'] is not none %}
+                <tr>
+                    <td>{{ item['column'] }}</td>
+                    <td>{{ item['value'] }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %} 
+
+    </table>
+    {% endif %}
+
+
+</body>
+</html>
