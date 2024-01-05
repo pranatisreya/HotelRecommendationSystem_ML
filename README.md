@@ -47,11 +47,11 @@ List of Figures
                                                             
 6.	RESULTS
    
-7.	CONCLUSION AND FUTURE SCOPE  	 	
-7.1.	 Conclusion         	 	 	          		           
-7.2.	 Future Scope 	                                                           
+7.	CONCLUSION AND FUTURE SCOPE
+   7.1.	 Conclusion
+7.2. Future Scope 	                                                           
 
-8.	BIBLIOGRAPHY            	 	 	                                              
+9.	BIBLIOGRAPHY            	 	 	                                              
  
 # List of Figures
 
