@@ -22,32 +22,32 @@ Machine learning plays a crucial role in this project by enabling the developmen
 ABSTRACT 	 	 	 	 	 	 	           
 List of Figures	
 
-1.	INTRODUCTION 	 	 	 	 	 	 
-1.1.	 Overview		 	 	 	 	             
+1.	INTRODUCTION
+   1.1.	 Overview
 1.2.	 Applications						
 1.3.	 Motivation	 	 	 	 	             
 1.4.	 Problem statement 	 	 		       
 1.5.	 Objective
   	            
-2.	LITERATURE SURVEY                                                            
-3.	EXISTING AND PROPOSED SYSTEM
+3.	LITERATURE SURVEY                                                            
+4.	EXISTING AND PROPOSED SYSTEM
 3.1.	 Existing System                                                                
 3.2.	 Limitations of Existing work				 
 3.3.	 Proposed System                                                              
 3.4.	 System Design                                                                 
 3.5.	 UML Diagrams
   	
-4.	SYSTEM REQUIREMENTS 
+5.	SYSTEM REQUIREMENTS 
 4.1.	 Functional Requirements                                                
 4.2.	 Non-Functional Requirements			           
 4.3.	 Hardware Requirements 	 	 	 	           
 4.4.	 Software Requirements
   			           
-5.	IMPLEMENTATION
+6.	IMPLEMENTATION
                                                             
-6.	RESULTS
+7.	RESULTS
    
-7.	CONCLUSION AND FUTURE SCOPE
+8.	CONCLUSION AND FUTURE SCOPE
    7.1.	 Conclusion
 7.2. Future Scope 	                                                           
 
