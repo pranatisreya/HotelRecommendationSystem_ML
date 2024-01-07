@@ -23,10 +23,8 @@ ABSTRACT
 List of Figures	
 
 1.	INTRODUCTION
-   1.1.	 Overview
-1.2.	 Applications						
-1.3.	 Motivation	 	 	 	 	             
-1.4.	 Problem statement 	 	 		       
+1.1.	 Overview
+1.2.	 Applications		1.3.	 Motivation	 	 1.4.	 Problem statement
 1.5.	 Objective
   	            
 3.	LITERATURE SURVEY                                                            
