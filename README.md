@@ -449,7 +449,9 @@ Should the model meet the established performance criteria, it can be deployed f
 
 Deployment
 
- 
+![image](static/image.jpg) 
+
+
 Fig.6.1. Website main page
 
  
